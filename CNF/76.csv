@@ -1,0 +1,8 @@
+B,C b
+B,a a b
+B,
+C,S
+C,B S
+S,C c B b
+S,c B
+S,a
