@@ -1,0 +1,19 @@
+Nichtterminale: ['A', 'B', 'C', 'S']
+Terminale: ['a', 'b', 'c']
+Startsymbol: S
+Produktionsregeln:
+  S -> AB
+  S -> BC
+  S -> CA
+  S -> a
+  A -> BB
+  A -> BC
+  A -> a
+  B -> AC
+  B -> AA
+  B -> b
+  C -> AB
+  C -> BA
+  C -> c
+
+Das zu testende Wort:bcac

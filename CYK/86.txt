@@ -1,0 +1,20 @@
+Nichtterminale: ['A', 'B', 'C', 'D', 'S']
+Terminale: ['a', 'b', 'c', 'd', 'e']
+Startsymbol: S
+Produktionsregeln:
+  S -> BD
+  S -> DA
+  S -> DD
+  A -> AA
+  A -> CB
+  A -> e
+  A -> b
+  B -> DC
+  B -> a
+  B -> e
+  C -> c
+  D -> AB
+  D -> CA
+  C -> d
+
+Das zu testende Wort:badbce

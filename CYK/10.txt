@@ -1,0 +1,19 @@
+Nichtterminale: ['A', 'B', 'C', 'D', 'S']
+Terminale: ['a', 'b', 'c', 'd']
+Startsymbol: S
+Produktionsregeln:
+  S -> AB
+  S -> BC
+  S -> CD
+  A -> BA
+  A -> a
+  B -> CC
+  B -> b
+  B -> d
+  C -> AB
+  C -> a
+  C -> c
+  D -> AB
+  D -> d
+
+Das zu testende Wort:abada

@@ -1,0 +1,17 @@
+Nichtterminale: ['A', 'B', 'C', 'D', 'S']
+Terminale: ['a', 'b']
+Startsymbol: S
+Produktionsregeln:
+  S -> AB
+  S -> BA
+  S -> b
+  S -> DA
+  A -> AC
+  A -> a
+  B -> AD
+  B -> b
+  C -> a
+  D -> AB
+  D -> CC
+
+Das zu testende Wort:ababa

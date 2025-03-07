@@ -1,0 +1,21 @@
+Nichtterminale: ['A', 'B', 'C', 'D', 'E', 'F', 'S']
+Terminale: ['a', 'b', 'c', 'd']
+Startsymbol: S
+Produktionsregeln:
+  S -> FC
+  S -> BA
+  A -> BE
+  A -> AB
+  A -> d
+  B -> DC
+  B -> b
+  C -> EA
+  C -> FF
+  D -> FB
+  D -> a
+  E -> a
+  E -> d
+  F -> CA
+  F -> c
+
+Das zu testende Wort:accd
