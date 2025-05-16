@@ -1,7 +1,7 @@
-B,C D
-B,b
-C,B
-D,c S
-D,a
-S,B B a
-S,
+B,
+B,c
+C,S
+C,a S
+C,S B
+S,a d c C
+S,b

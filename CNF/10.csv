@@ -1,8 +1,8 @@
-B,a
-B,S C
-C,b S
-D,B C c
-D,d B
+B,d
+B,S S
+C,D
+D,C B
 D,
-S,b a b
-S,D
+S,B
+S,a a c b
+S,b C

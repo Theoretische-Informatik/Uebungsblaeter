@@ -1,9 +1,6 @@
-B,C S
-B,d
-B,S e c D C
-B,S D
-C,a D
-D,B
-S,
-S,c e B
-S,b B
+B,S
+B,b C
+C,
+S,B C
+S,b B c
+S,a
